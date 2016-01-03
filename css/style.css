@@ -1,0 +1,131 @@
+*{
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+
+}
+
+
+
+iframe{
+  max-width: 70%;  
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -280px;
+  z-index: 10;
+  
+}
+
+body{
+  background-color: #1c1504;
+  background-image:         url(http://www.transparenttextures.com/patterns/washi.png);
+}
+
+header p{
+  font-weight: 600;
+  font-size: 5em;
+  margin-top: 40px;
+  font-family:'Yellowtail'
+}
+
+
+#instructions, #lessMinute, #addMinute, #setMinute,.minutes,.seconds{
+  font-size: 1.7em;
+}
+
+#lessMinute, #addMinute{
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+#lessMinute:active,#lessMinute:focus, #addMinute:active,  #addMinute:focus{
+  background-image: none;
+  outline: 0;
+  box-shadow: none;
+}
+#startTimer{
+  margin: 10px auto;
+  display: block;
+  background-color: #d80037;
+  border: none;
+}
+
+#pause, #reset, #resume{
+  margin: 10px auto;
+  display:none;
+   background-color: #d80037;
+  border: none;
+}
+
+.timer{
+  position: fixed;
+  left: 0;
+  right: 0;
+ 
+  padding: 20px;
+  height: 300px;
+  top: 20%;
+   margin: 30px auto;
+  padding-bottom: 500px;
+  background:url("http://i.imgur.com/hVW5luK.png") no-repeat center center;
+   
+    background-size: 550px auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: inherit;
+}
+
+.timer>*{
+  position: fixed;  
+  margin-top: 120px;
+  left: 0;
+  right: 0;
+}
+
+.timeSet{
+  font-size: 2em;
+}
+
+.buttons{
+  position: fixed;
+  margin: 5% auto;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: 200px;
+}
+
+.activeTime{
+  font-size: 2em;
+  margin-top: 120px;
+}
+
+
+
+audio, iframe{
+  display: none;
+}
+
+
+
+.darkBackground{
+  background-color: rgba(0,0,0,1)
+}
+
+#return{
+  position:fixed;
+  top:0;
+  right: 0;
+  margin: 30px;
+  display:none;
+}
+
+@media (max-width: 600px){
+  header p{
+    font-size: 2em;
+    margin-top: 100px;
+  }
+}
+
+

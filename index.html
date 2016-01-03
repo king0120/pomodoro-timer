@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+
+<header><p>Pomodoro Clock Timer</p>
+ <div> 
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/CT70iCaG0Gs" frameborder="0" allowfullscreen></iframe>
+  
+</div>
+</header>
+<div class="finished"></div>
+<div class='timer'>
+ 
+  <div>
+    
+    <div id="instructions">Set Timer</div>
+    <div class="timeSet">
+    <button id="lessMinute">-</button>
+    <span id="setMinute"></span>
+    <button id="addMinute">+</button>
+    </div>  
+  </div>
+  <div class='activeTime'>
+    <span class='minutes'></span>  
+    <span class="seconds"></span>
+  </div>  
+  </div>  
+  <div class="buttons">
+     <button type="button" class="btn btn-lg btn-primary" id="pomoVideo">What Is Pomodoro?</button>
+    
+    <button type="button" class="btn btn-lg btn-primary" id="startTimer">Start Timer</button>
+    <button type="button" class="btn btn-lg btn-primary" id="pause">Pause</button>
+    <button type="button" class="btn btn-lg btn-primary" id="resume">Resume</button>
+    <button type="button" class="btn btn-lg btn-primary" id="reset">Reset</button>
+     <button type="button" class="btn btn-lg btn-primary" id="return">Return</button>
+     
+   
+  
+  </div>
+
+
+<audio class="alarm" src="http://bruitages.free.fr/horloges/sonnette_reveil.wav">
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
